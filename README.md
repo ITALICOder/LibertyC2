@@ -1,5 +1,5 @@
 # LibertyC2
-Esempio di C2 server in rust con multi-connessione e annessa shell.py di prova e server.py per evitare di fare cargo build > run
+Esempio di C2 server su Tor in rust con multi-connessione e annessa shell.py di prova e server.py per evitare di fare cargo build > run
 
 ## Installazione su Debian
 apt-get install tor
