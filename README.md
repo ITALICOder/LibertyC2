@@ -3,9 +3,13 @@ Esempio di C2 server in rust con multi-connessione e annessa shell.py di prova e
 
 ## Installazione su Debian
 apt-get install tor
+
 edit /etc/tor/torrc
+
 HiddenServiceDir /var/lib/tor/hidden_service/
+
 HiddenServicePort 80 127.0.0.1:1234
+
 e siamo pronti per far partire il C2 server, poi per prendere il link onion andare in questo file /var/lib/tor/hidden_service/hostname
 
 
